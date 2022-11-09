@@ -25,15 +25,16 @@ body {
 }
 
 #user-list {
-  max-width: 70%;
+  max-width: 60%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 3rem;
   padding: 5rem;
 }
 
 .user-container {
-  max-width: 15%;
+  width: 15rem;
   border: 0.2rem solid grey;
   display: flex;
   flex-direction: column;
@@ -56,3 +57,5 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+
