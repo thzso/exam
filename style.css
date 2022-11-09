@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-div {
+  padding: 1rem;
+
+}
+
+#user-list {
+  max-width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 5rem;
+}
+
+.user-container {
+  max-width: 15%;
+  border: 0.2rem solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 40%;
+}
+
+.info-div {
+
+  display: none;
+}
+
+.info-div-clicked {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
